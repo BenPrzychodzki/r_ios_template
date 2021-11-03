@@ -1,0 +1,43 @@
+[
+    {
+        "id": "001",
+        "name": "Oh Il-nam",
+        "pict": "https://img.buzzfeed.com/buzzfeed-static/static/2021-10/1/4/asset/670c2600d172/sub-buzz-1832-1633062114-15.jpg",
+        "description":"Oh plays Oh Il-nam, an elderly man with a brain tumour who prefers to relive the excitement of his youth through the Games rather than waiting to die in the outside world.",
+    },
+    {
+        "id": "456",
+        "name": "Seong Gi-hun",
+        "pict": "https://img.buzzfeed.com/buzzfeed-static/static/2021-10/1/4/asset/d0104e46f9c6/sub-buzz-731-1633060988-10.jpg",
+        "description": "Lee plays Seong Gi-Hun, a divorced dad who is addicted to gambling and struggles to financially support both his mum and daughter. He participates in the Games to settle his many debts",
+    },
+    {
+        "id": "218",
+        "name": "Cho Sang-woo",
+        "pict": "https://img.buzzfeed.com/buzzfeed-static/static/2021-10/1/4/asset/66627c0da080/sub-buzz-714-1633061561-8.jpg",
+        "description": "Park plays Cho Sang-woo, a gifted student who studied at Seoul National University and is now head of an investment team. He's wanted by the police for stealing money from his clients, which is why he enters the Games."
+    },
+    {
+        "id": "67",
+        "name": "Kang Sae-byeok",
+        "descripition": "Jung plays fan-favourite Kang Sae-byeok, a North Korean defector who participates in the Game so that she can be reunited with her surviving family members and start a life with her younger brother."
+    },
+    {
+        "id": "101",
+        "name": "Jang Deok-su",
+        "pict":"https://img.buzzfeed.com/buzzfeed-static/static/2021-10/1/4/asset/d0104e46f9c6/sub-buzz-821-1633062525-3.jpg",
+        "description": "Heo plays Jang Deok-su, a nasty gangster who racks up a large debt to his boss and a gambling debt to a Filipino organisation, which forces him to join the Games.",
+    },
+    {
+        "id": "199",
+        "name": "Abdul Ali",
+        "pict": "https://img.buzzfeed.com/buzzfeed-static/static/2021-10/1/4/asset/66627c0da080/sub-buzz-871-1633063436-21.jpg",
+        "description": "Tripathi plays Abdul Ali, a migrant worker from Pakistan who enlists in the Games to provide for his young family after his employer refuses to pay him."
+    },
+    {
+        "id": "212",
+        "name": "Han Mi-nyeo",
+        "pict": "https://img.buzzfeed.com/buzzfeed-static/static/2021-10/1/4/asset/670c2600d172/sub-buzz-1951-1633063535-28.jpg",
+        "description": " Kim plays Han Mi-nyeo, a mysterious and manipulative woman who we really don't know much about. She's annoying, she's a badass and by the end of the series, you're very much on her side — if you know what I mean."
+    }
+]

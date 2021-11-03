@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		904C0752273272BA00E112AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0751273272BA00E112AE /* AppDelegate.swift */; };
 		904C0754273272BA00E112AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0753273272BA00E112AE /* SceneDelegate.swift */; };
-		904C0756273272BA00E112AE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0755273272BA00E112AE /* ViewController.swift */; };
+		904C0756273272BA00E112AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0755273272BA00E112AE /* MainViewController.swift */; };
 		904C0759273272BA00E112AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904C0757273272BA00E112AE /* Main.storyboard */; };
 		904C075C273272BA00E112AE /* SquidGameMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 904C075A273272BA00E112AE /* SquidGameMeter.xcdatamodeld */; };
 		904C075E273272BC00E112AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904C075D273272BC00E112AE /* Assets.xcassets */; };
 		904C0761273272BC00E112AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904C075F273272BC00E112AE /* LaunchScreen.storyboard */; };
 		904C076C273272BD00E112AE /* SquidGameMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C076B273272BD00E112AE /* SquidGameMeterTests.swift */; };
 		904C0777273272BD00E112AE /* SquidGameMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0776273272BD00E112AE /* SquidGameMeterUITests.swift */; };
+		904C078C27327FB100E112AE /* players.json in Resources */ = {isa = PBXBuildFile; fileRef = 904C078B27327FB100E112AE /* players.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +40,7 @@
 		904C074E273272BA00E112AE /* SquidGameMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquidGameMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		904C0751273272BA00E112AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		904C0753273272BA00E112AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		904C0755273272BA00E112AE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		904C0755273272BA00E112AE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		904C0758273272BA00E112AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		904C075B273272BA00E112AE /* SquidGameMeter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SquidGameMeter.xcdatamodel; sourceTree = "<group>"; };
 		904C075D273272BC00E112AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +52,7 @@
 		904C0772273272BD00E112AE /* SquidGameMeterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquidGameMeterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		904C0776273272BD00E112AE /* SquidGameMeterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquidGameMeterUITests.swift; sourceTree = "<group>"; };
 		904C0778273272BD00E112AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904C078B27327FB100E112AE /* players.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = players.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +103,11 @@
 		904C0750273272BA00E112AE /* SquidGameMeter */ = {
 			isa = PBXGroup;
 			children = (
+				904C078F273289C400E112AE /* storyboards */,
+				904C078A27327F9A00E112AE /* assets */,
+				904C07842732742600E112AE /* player */,
 				904C0751273272BA00E112AE /* AppDelegate.swift */,
 				904C0753273272BA00E112AE /* SceneDelegate.swift */,
-				904C0755273272BA00E112AE /* ViewController.swift */,
-				904C0757273272BA00E112AE /* Main.storyboard */,
 				904C075D273272BC00E112AE /* Assets.xcassets */,
 				904C075F273272BC00E112AE /* LaunchScreen.storyboard */,
 				904C0762273272BC00E112AE /* Info.plist */,
@@ -129,6 +132,54 @@
 				904C0778273272BD00E112AE /* Info.plist */,
 			);
 			path = SquidGameMeterUITests;
+			sourceTree = "<group>";
+		};
+		904C07842732742600E112AE /* player */ = {
+			isa = PBXGroup;
+			children = (
+				904C07892732757F00E112AE /* infrastructure */,
+				904C0788273274FD00E112AE /* application */,
+				904C0787273274F200E112AE /* domain */,
+			);
+			path = player;
+			sourceTree = "<group>";
+		};
+		904C0787273274F200E112AE /* domain */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		904C0788273274FD00E112AE /* application */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = application;
+			sourceTree = "<group>";
+		};
+		904C07892732757F00E112AE /* infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				904C0755273272BA00E112AE /* MainViewController.swift */,
+			);
+			path = infrastructure;
+			sourceTree = "<group>";
+		};
+		904C078A27327F9A00E112AE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				904C078B27327FB100E112AE /* players.json */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		904C078F273289C400E112AE /* storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				904C0757273272BA00E112AE /* Main.storyboard */,
+			);
+			path = storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +285,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904C078C27327FB100E112AE /* players.json in Resources */,
 				904C0761273272BC00E112AE /* LaunchScreen.storyboard in Resources */,
 				904C075E273272BC00E112AE /* Assets.xcassets in Resources */,
 				904C0759273272BA00E112AE /* Main.storyboard in Resources */,
@@ -262,7 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				904C075C273272BA00E112AE /* SquidGameMeter.xcdatamodeld in Sources */,
-				904C0756273272BA00E112AE /* ViewController.swift in Sources */,
+				904C0756273272BA00E112AE /* MainViewController.swift in Sources */,
 				904C0752273272BA00E112AE /* AppDelegate.swift in Sources */,
 				904C0754273272BA00E112AE /* SceneDelegate.swift in Sources */,
 			);
