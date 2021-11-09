@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37BE74E5273AFEB400A1BDB8 /* PlayerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE74E4273AFEB400A1BDB8 /* PlayerModel.swift */; };
+		37BE74E7273B063800A1BDB8 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37BE74E6273B063800A1BDB8 /* DetailsViewController.swift */; };
+		37C09EA7273B31FD001F6254 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37C09EA9273B31FD001F6254 /* Localizable.strings */; };
+		37C09EAC273B32AB001F6254 /* translationUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C09EAB273B32AB001F6254 /* translationUtils.swift */; };
 		904C0752273272BA00E112AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0751273272BA00E112AE /* AppDelegate.swift */; };
 		904C0754273272BA00E112AE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0753273272BA00E112AE /* SceneDelegate.swift */; };
 		904C0756273272BA00E112AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0755273272BA00E112AE /* MainViewController.swift */; };
 		904C0759273272BA00E112AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904C0757273272BA00E112AE /* Main.storyboard */; };
 		904C075C273272BA00E112AE /* SquidGameMeter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 904C075A273272BA00E112AE /* SquidGameMeter.xcdatamodeld */; };
 		904C075E273272BC00E112AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904C075D273272BC00E112AE /* Assets.xcassets */; };
-		904C0761273272BC00E112AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904C075F273272BC00E112AE /* LaunchScreen.storyboard */; };
 		904C076C273272BD00E112AE /* SquidGameMeterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C076B273272BD00E112AE /* SquidGameMeterTests.swift */; };
 		904C0777273272BD00E112AE /* SquidGameMeterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904C0776273272BD00E112AE /* SquidGameMeterUITests.swift */; };
 		904C078C27327FB100E112AE /* players.json in Resources */ = {isa = PBXBuildFile; fileRef = 904C078B27327FB100E112AE /* players.json */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37BE74E4273AFEB400A1BDB8 /* PlayerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerModel.swift; sourceTree = "<group>"; };
+		37BE74E6273B063800A1BDB8 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		37C09EA4273B31B1001F6254 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Main.strings; sourceTree = "<group>"; };
+		37C09EA8273B31FD001F6254 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37C09EAA273B3205001F6254 /* pl */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pl; path = pl.lproj/Localizable.strings; sourceTree = "<group>"; };
+		37C09EAB273B32AB001F6254 /* translationUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = translationUtils.swift; sourceTree = "<group>"; };
 		904C074E273272BA00E112AE /* SquidGameMeter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquidGameMeter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		904C0751273272BA00E112AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		904C0753273272BA00E112AE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +53,6 @@
 		904C0758273272BA00E112AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		904C075B273272BA00E112AE /* SquidGameMeter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SquidGameMeter.xcdatamodel; sourceTree = "<group>"; };
 		904C075D273272BC00E112AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		904C0760273272BC00E112AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		904C0762273272BC00E112AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		904C0767273272BD00E112AE /* SquidGameMeterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquidGameMeterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		904C076B273272BD00E112AE /* SquidGameMeterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquidGameMeterTests.swift; sourceTree = "<group>"; };
@@ -109,7 +117,6 @@
 				904C0751273272BA00E112AE /* AppDelegate.swift */,
 				904C0753273272BA00E112AE /* SceneDelegate.swift */,
 				904C075D273272BC00E112AE /* Assets.xcassets */,
-				904C075F273272BC00E112AE /* LaunchScreen.storyboard */,
 				904C0762273272BC00E112AE /* Info.plist */,
 				904C075A273272BA00E112AE /* SquidGameMeter.xcdatamodeld */,
 			);
@@ -162,6 +169,10 @@
 			isa = PBXGroup;
 			children = (
 				904C0755273272BA00E112AE /* MainViewController.swift */,
+				37BE74E4273AFEB400A1BDB8 /* PlayerModel.swift */,
+				37BE74E6273B063800A1BDB8 /* DetailsViewController.swift */,
+				37C09EA9273B31FD001F6254 /* Localizable.strings */,
+				37C09EAB273B32AB001F6254 /* translationUtils.swift */,
 			);
 			path = infrastructure;
 			sourceTree = "<group>";
@@ -267,6 +278,7 @@
 			knownRegions = (
 				en,
 				Base,
+				pl,
 			);
 			mainGroup = 904C0745273272BA00E112AE;
 			productRefGroup = 904C074F273272BA00E112AE /* Products */;
@@ -286,7 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				904C078C27327FB100E112AE /* players.json in Resources */,
-				904C0761273272BC00E112AE /* LaunchScreen.storyboard in Resources */,
+				37C09EA7273B31FD001F6254 /* Localizable.strings in Resources */,
 				904C075E273272BC00E112AE /* Assets.xcassets in Resources */,
 				904C0759273272BA00E112AE /* Main.storyboard in Resources */,
 			);
@@ -313,10 +325,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37C09EAC273B32AB001F6254 /* translationUtils.swift in Sources */,
+				37BE74E5273AFEB400A1BDB8 /* PlayerModel.swift in Sources */,
 				904C075C273272BA00E112AE /* SquidGameMeter.xcdatamodeld in Sources */,
 				904C0756273272BA00E112AE /* MainViewController.swift in Sources */,
 				904C0752273272BA00E112AE /* AppDelegate.swift in Sources */,
 				904C0754273272BA00E112AE /* SceneDelegate.swift in Sources */,
+				37BE74E7273B063800A1BDB8 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,20 +367,22 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		37C09EA9273B31FD001F6254 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				37C09EA8273B31FD001F6254 /* en */,
+				37C09EAA273B3205001F6254 /* pl */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		904C0757273272BA00E112AE /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				904C0758273272BA00E112AE /* Base */,
+				37C09EA4273B31B1001F6254 /* pl */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		904C075F273272BC00E112AE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				904C0760273272BC00E112AE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -375,6 +392,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -436,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

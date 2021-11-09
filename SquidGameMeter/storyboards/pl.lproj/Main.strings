@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "Name: Place-hol-der"; ObjectID = "2Gh-Mj-I5B"; */
+"2Gh-Mj-I5B.text" = "Imię: Place-hol-der";
+
+/* Class = "UILabel"; text = "Is Eliminated?"; ObjectID = "7co-2m-zEx"; */
+"7co-2m-zEx.text" = "Czy wyeliminowany?";
+
+/* Class = "UILabel"; text = "Description: This is a very very very very very very very very very very very very very very very long text"; ObjectID = "ZHJ-G7-NYW"; */
+"ZHJ-G7-NYW.text" = "Opis: This is a very very very very very very very very very very very very very very very long text";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ZyY-ju-cDE"; */
+"ZyY-ju-cDE.text" = "Label";
+
+/* Class = "UIButton"; configuration.title = "Button"; ObjectID = "veh-q2-NxK"; */
+"veh-q2-NxK.configuration.title" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "veh-q2-NxK"; */
+"veh-q2-NxK.normalTitle" = "Button";
