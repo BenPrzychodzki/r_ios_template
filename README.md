@@ -1,5 +1,5 @@
 # SquidGame list
-Application written as a recruitment task for Bitcomp Polska.
+Application written as a recruitment task for Bitcomp Polska with an usage of storyboards.
 
 ## Description (in polish)
 Twoim zadaniem będzie napisanie aplikacji, która wczyta listę graczy w SquidGame i pozwoli oznaczać wyeliminowanych graczy. Nie wszyscy gracze posiadają zdjęcia, w przypadku gracza bez zdjęcia należy wyświetlić placeholder (szary kwadrat). Przed rozpoczęciem zadań utwórz forka a rozwiązanie zadań proszę zamieść w swoim repozytorium (pamiętaj, żeby było prywatne) i prześlij linka. Oceniane będą zarówno zadania jak i sposób ich realizacji.  
